@@ -37,11 +37,11 @@ createPlatform(200, 700, 10, 5, "white")
 createPlatform(500, 500, 15, 5, "white")
 createPlatform(500, 400, 10, 5, "white")
 createPlatform(200, 400, 10, 5, "white")
-createPlatform(100, 300, 10, 5, "white")
+createPlatform(100, 300, 50, 5, "white")
     // TODO 3 - Create Collectables
-
-
-
+//createCollectables("type", xPos, yPos, gravity?, bounce?, minX = null, maxX = null, speed = 1)
+//"type" can be 6 things . . . database diamond grace kennedi max steve
+createCollectable("database", 100, 200)
     
     // TODO 4 - Create Cannons
 //createCannon("wall", pos, secondsX1000, width, height)
