@@ -42,7 +42,7 @@ createPlatform(100, 300, 50, 5, "white")
 //createCollectables("type", xPos, yPos, gravity?, bounce?, minX = null, maxX = null, speed = 1)
 //"type" can be 6 things . . . database diamond grace kennedi max steve
 createCollectable("database", 100, 200)
-    
+createCollectable("database",500, 300)    
     // TODO 4 - Create Cannons
 //createCannon("wall", pos, secondsX1000, width, height)
 createCannon("right", 400, 1000, 25, 25)
